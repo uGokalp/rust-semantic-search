@@ -1,0 +1,18 @@
+[package]
+name = "rust-semantic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ort = "1.16.3"
+qdrant-client = "1.7.0"
+tokenizers = { version = "0.15.0" }
+ndarray = "0.15.6"
+env_logger = "0.10.1"
+log = "0.4.20"
+dotenv = "0.15.0"
